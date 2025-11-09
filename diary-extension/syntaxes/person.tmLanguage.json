@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Diary Person",
+  "patterns": [
+    {
+      "name": "keyword.control.section",
+      "match": "^##\\s+(Data|References|Tags)"
+    },
+    {
+      "name": "entity.name.tag",
+      "match": "#[A-Za-z][A-Za-z0-9_]*"
+    }
+  ],
+  "scopeName": "source.person"
+}
+

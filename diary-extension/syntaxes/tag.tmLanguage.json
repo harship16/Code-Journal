@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Diary Tag",
+  "patterns": [
+    {
+      "name": "entity.name.person",
+      "match": "\\$[A-Za-z][A-Za-z0-9_]*"
+    }
+  ],
+  "scopeName": "source.tag"
+}
+
